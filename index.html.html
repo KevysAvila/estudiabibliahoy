@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="styles.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudia Biblia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script defer src="https://cdn.bibliatodo.com/assets/js/verselinker.js" lang="es" version="RV1960"></script>
+<body>
+  
+  <header>
+    <h1> <img src="img/icono-biblia.avif" width="100" height="50" >Estudia Biblia </h1>
+<img src="img/portada estilo biblia.png" width="800" height="400">
+</header>
+<nav
+  <!DOCTYPE html>
+  
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pasajes bíblicos en botones</title>
+  <style>
+    .versiculo-btn {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .versiculo-btn:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pasajes Bíblicos</h1>
+
+  <button class="versiculo-btn">Juan 3:16</button>
+  <button class="versiculo-btn">Salmo 23:1</button>
+  <button class="versiculo-btn">Génesis 1:1</button>
+
+  <script>
+    document.querySelectorAll('.versiculo-btn').forEach(btn => {
+      const pasaje = btn.textContent.trim().replace(/\s+/g, '+');
+      const url = `https://www.biblegateway.com/passage/?search=${pasaje}&version=RVR1960`;
+      btn.addEventListener('click', () => {
+        window.open(url, '_blank');
+      });
+    });
+  </script>
+  <!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Buscar pasaje bíblico</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 250px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #db8534;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔍 Buscar pasaje bíblico</h1>
+
+  <input type="text" id="pasaje" placeholder="Ej: Juan 3:16">
+  <button onclick="buscarPasaje()">Buscar</button>
+
+  <script>
+    function buscarPasaje() {
+      const entrada = document.getElementById('pasaje').value.trim();
+      if (entrada !== "") {
+        const referencia = entrada.replace(/\s+/g, '+');
+        const url = `https://www.biblegateway.com/passage/?search=${referencia}&version=RVR1960`;
+        window.open(url, '_blank');
+      } else {
+        alert("Por favor escribe un pasaje bíblico.");
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+</body>
+</html>
+     <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#por-libro">Oraciones por Libro</a></li>
+        <li><a href="#genesis">Oraciones en Génesis</a></li>
+        <li><a href="#jesus">Oraciones de Jesús</a></li>
+        <li><a href="#pablo">Oraciones de Pablo</a></li>
+        <li><a href="#salmos">Salmos Oracionales</a></li>
+        <li><a href="#temas">Buscar por Tema</a></li>
+        <li><a href="#reflexiones">Estudio y Reflexión</a></li>
+        <li><a href="#reflexiones-por-libro">Reflexiones por Libro</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      
+      <h2>Bienvenido</h2>
+      <i class=" fas fa-home"></i>
+      <p>
+        Esta página reúne muchas de todas las oraciones que se encuentran en la Biblia, desde Génesis hasta Apocalipsis,
+        según la versión Reina-Valera 1960. Aquí descubrirás clamor, fe, gratitud y esperanza
+        en cada versículo que te puede ayudar en este camino de la busqueda por una conección con nuestro Padre Celestial.
+      </p>
+    </section>
+
+    <section id="por-libro">
+      <h2> Oraciones por Libro</h2>
+      <p>Explora las oraciones agrupadas por cada libro bíblico, acompañado de un Devocional que te hara reflexionar.</p>
+    </section>
+
+    <section id="genesis">
+      <h2> Oraciones en Génesis</h2>
+<h3> Abraham intercede por Sodoma – Génesis 18:23–33</h3>
+<img src="./img/abraham-orando.png" alt="Orando"  style="width: 25%; height: auto; border-radius: 8px;">
+      <p>Abraham ora con reverencia y valentía, rogando que no destruya Sodoma si hay justos en ella.</p>
+      <p><em>“¿Destruirás también al justo con el impío?”</em></p>
+      <strong>Devocional:</strong>
+      <p>Tu oración por los demás puede cambiar destinos. Ora hoy por alguien que necesita misericordia.</p>
+
+      <h3> El siervo de Abraham ora por dirección – Génesis 24:12–14</h3>
+      <p>El siervo pide señales y guía para encontrar esposa para Isaac. Dios responde con precisión.</p>
+      <strong>Devocional:</strong>
+      <p>Antes de tomar decisiones, ora como este siervo: “Señor, dame hoy tu dirección.”</p>
+
+      <h3> Jacob ora en angustia – Génesis 32:9–12</h3>
+      <p>Jacob clama a Dios antes de enfrentar a Esaú, mostrando temor y dependencia en su promesa.</p>
+      <strong>Devocional:</strong>
+      <p>En tus miedos, ora con sinceridad. Dios escucha lo que nace del corazón tembloroso.</p>
+
+      <h3> Jacob bendice a sus hijos – Génesis 48:15–16</h3>
+      <p>Jacob ora sobre sus descendientes, dejando una bendición espiritual de generación en generación.</p>
+      <strong>Devocional:</strong>
+      <p>Ora por tu familia. Aunque no veas resultados hoy, tus palabras bendecidas permanecerán.</p>
+    </section>
+
+    <section id="jesus">
+      
+      <h2>🙌 Oraciones de Jesús</h2>
+      <p>Conoce todas las veces que Jesús oró y lo que revelan sobre su relación con el Padre.</p>
+      En la versión Reina-Valera 1960, se registran al menos 15 momentos distintos en los que Jesucristo ora.
+       Aquí te comparto algunas de las citas más representativas:
+<p style="margin-bottom: 10px;"></p>
+•	Lucas 3:21 – Jesús ora durante su bautismo.
+<p style="margin-bottom: 10px;"></p>
+•	Mateo 14:23 – Se retira solo al monte para orar.
+<p style="margin-bottom: 10px;"></p>
+•	Marcos 1:35 – Ora temprano en la mañana en un lugar solitario.
+<p style="margin-bottom: 10px;"></p>
+•	Lucas 5:16 – Se aparta frecuentemente para orar.
+<p style="margin-bottom: 10px;"></p>
+•	Lucas 6:12 – Pasa toda la noche orando antes de elegir a sus discípulos.
+<p style="margin-bottom: 10px;"></p>
+•	Lucas 9:18 – Ora a solas antes de preguntar a sus discípulos quién dicen que es.
+<p style="margin-bottom: 10px;"></p>
+•	Lucas 9:28-29 – Ora durante la transfiguración.
+<p style="margin-bottom: 10px;"></p>
+•	Juan 11:41-42 – Ora antes de resucitar a Lázaro.
+<p style="margin-bottom: 10px;"></p>
+•	Mateo 26:36-44 – Ora tres veces en Getsemaní antes de ser arrestado.
+<p style="margin-bottom: 10px;"></p>
+•	Lucas 23:34 – Ora en la cruz: “Padre, perdónalos, porque no saben lo que hacen.”
+<p style="margin-bottom: 10px;"></p>
+•	Lucas 23:46 – Su última oración: “Padre, en tus manos encomiendo mi espíritu.”
+<p style="margin-bottom: 10px;"></p>
+Estas oraciones muestran a Jesús en momentos de intimidad, decisión, dolor y entrega. No solo enseñaba sobre la oración, sino que la vivía profundamente.
+<p style="margin-bottom: 1%;"></p>
+      <p> Porfavor, dejanos saber a traves de tus mensajes al, correo si quiere que sigamos compartiendo contenido de la vida de oración que llevo Jesucristo y que edificara tu vida.</p>
+    </section>
+
+    <section id="pablo">
+      <h2>📜 Oraciones del Apóstol Pablo</h2>
+      <p>Recopilación de todas las oraciones escritas por Pablo en sus epístolas.</p>
+      El apóstol Pablo fue un hombre de oración constante, y sus cartas están llenas de súplicas, agradecimientos y peticiones espirituales. 
+      Aquí compartiremos una lista representativa de sus oraciones según la Biblia Reina-Valera 1960, extraídas de sus epístolas, es contenido completamente gratuito
+      solo dejanos saber si te gusta lo que hacemos y estaremos agregando el contenido en poco tiempo.
+    </section>
+
+    <section id="salmos">
+      <h2>🎵 Salmos Oracionales</h2>
+      <p>Lista de salmos que contienen oraciones directas y profundas.</p>
+      Los Salmos están llenos de oraciones, súplicas, alabanzas y diálogos íntimos con Dios. 
+      Aquí tienes una lista representativa de salmos que tienen una relación directa con la oración, según la Biblia Reina-Valera 1960:
+<p style="margin-bottom: 1%;"></p>
+      🙏 Salmos que son oraciones explícitas
+      <p style="margin-bottom: 1%;"></p>
+•	Salmo 3 – Oración matutina de confianza en Dios.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 4 – Oración vespertina de paz y seguridad.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 5 – Oración pidiendo dirección divina.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 6 – Oración en tiempo de angustia.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 17 – Oración de un hombre justo.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 18:6 – “En mi angustia invoqué a Jehová…”
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 20 – Oración por la victoria del rey.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 21 – Acción de gracias por la respuesta a la oración.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 25 – Oración por dirección, perdón y protección.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 27:7 – “Oye, oh Jehová, mi voz con que a ti clamo…”
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 28 – Oración pidiendo misericordia y justicia.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 30 – Oración de gratitud por sanidad.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 32:6 – “Por esto orará a ti todo santo…”
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 38 – Oración de arrepentimiento y dolor.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 39 – Oración por sabiduría y redención.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 40 – Oración de gratitud y súplica.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 42 – Clamor del alma sedienta de Dios.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 51 – Oración de arrepentimiento de David.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 55 – Oración en medio de traición.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 61 – Oración por protección y prolongación de vida.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 63 – Oración de adoración en el desierto.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 69 – Oración en medio de persecución.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 70 – Oración urgente por liberación.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 71 – Oración de confianza en la vejez.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 86 – Oración pidiendo misericordia.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 88 – Oración desde la desesperación.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 102 – Oración del afligido cuando desfallece.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 109 – Oración contra enemigos injustos.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 119:145–152 – Clamor por entendimiento y salvación.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 130 – Oración desde lo profundo del alma.
+<p style="margin-bottom: 1%;"></p>
+•	Salmo 143 – Oración por guía y liberación.
+<p style="margin-bottom: 1%;"></p>
+Estos salmos no solo contienen oraciones, sino que modelan cómo orar en distintas circunstancias: alegría, dolor, arrepentimiento, adoración, y lucha espiritual. Muchos comienzan con un clamor y terminan con esperanza.
+
+    </section>
+
+    <section id="temas">
+      <h2>🔍 Buscar por Tema</h2>
+      <p>Encuentra oraciones por tipo: intercesión, arrepentimiento, gratitud, adoración, etc.</p>
+      Seguiremos aumentando nuestro contenido a medida que tu hambre y sed de busqueda por Dios siguan creciendo.
+    </section>
+
+    <section id="reflexiones">
+      <h2>🧠 Estudio y Reflexión</h2>
+      <p>Devocionales y comentarios sobre el significado espiritual de las oraciones bíblicas.</p>
+    </section>
+    Estamos atentos a tu petición en donde estare añadiendo no solo estudios biblicos, sino experiencias personales, mientras caminemos en esta hermosa vida con Cristo.
+
+    <section id="reflexiones-por-libro">
+      <h2>🧠 Reflexiones por Libro</h2>
+      <p>Devocionales breves sobre las oraciones en cada libro bíblico.</p>
+A medida que nos desarrollemos tambien queremos hacerte parte de esta pagina y puedas compartir tambien tu experiencia con el Señor en donde otros seran edificados.
+      <h3>📘 Génesis</h3>
+      <p><strong>Reflexión:</strong> En tus comienzos, ora. Desde el principio, Dios se involucra con los que le buscan.</p>
+
+      <h3>🔥 Éxodo</h3>
+      <p><strong>Reflexión:</strong> Dios no necesita oraciones perfectas. Solo corazones sinceros que no se cansan de hablarle.</p>
+
+      <h3>🛡️ Josué</h3>
+      <p><strong>Reflexión:</strong> En cada victoria, ora. En cada derrota, ora más fuerte.</p>
+
+      <h3>🎵 Salmos</h3>
+      <p><strong>Reflexión:</strong> Tu alma tiene voz, y en oración, aprende a cantar incluso cuando tiembla.</p>
+
+      <h3>📜 Profetas</h3>
+      <p><strong>Reflexión:</strong> La intercesión no siempre cambia el presente, pero prepara el futuro.</p>
+
+      <h3>📖 Evangelios</h3>
+      <p><strong>Reflexión:</strong> Ora como Jesús: con propósito, compasión y confianza total en el Padre.</p>
+
+      <h3>💌 Epístolas</h3>
+      <p><strong>Reflexión:</strong> Ora por otros. Dios hace su mejor obra cuando un corazón ora por muchos.</p>
+
+      <h3>🌟 Apocalipsis</h3>
+      <p><strong>Reflexión:</strong> La oración no termina. Aún esperamos, y oramos para que todo sea hecho nuevo.</p>
+  <body>
+  <h2>Versículo del Día (Reina Valera 1960)</h2>
+  <div id="dailyVersesWrapper"></div>
+  <script async defer src="https://dailyverses.net/get/verse.js?language=rvr60"></script>
+</body>
+
+<section id="contacto">
+      <h2>📬 Contáctanos</h2>
+      <p>¿Tienes sugerencias o quieres colaborar? ¡Escríbenos!</p>
+    </section> Correo electronico: Estudia_Biblia@yahoo.com
+    <p style="margin-bottom: 1%;"></p>
+ El mayor anhelo y deseo de un hno en Cristo es que otros puedan crecer Efesios 4:15 y mi oración es que puedas crecer a traves de este material y demas contenido que se estara impartiendo a traves de esta pagina, Que Dios te Bendiga.
+    <p>&copy; 2025 Oraciones de la Biblia. Proyecto creado por Avila. Todos los derechos reservados.</p>
+
+</body>
